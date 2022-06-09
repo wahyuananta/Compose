@@ -117,9 +117,6 @@ fun ActionItem(onClickLogin:() -> Unit, onClickRegister:() -> Unit) {
 }
 
 @Composable
-fun Greeting(name: String) {
-    Text(text = "Hello $name!")
-}
 fun Greeting2(name: String) {
     Text(text = "Hello $name!")
 }
