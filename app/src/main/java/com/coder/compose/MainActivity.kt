@@ -120,6 +120,9 @@ fun ActionItem(onClickLogin:() -> Unit, onClickRegister:() -> Unit) {
 fun Greeting(name: String) {
     Text(text = "Hello $name!")
 }
+fun Greeting2(name: String) {
+    Text(text = "Hello $name!")
+}
 
 @Preview(showBackground = true, showSystemUi = true)
 @Composable
